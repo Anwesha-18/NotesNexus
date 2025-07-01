@@ -404,7 +404,7 @@ nav ul li:hover {
     flex-direction: column;
     gap: 15px;
     margin-top: 10px;
-  }
+ }
 
   .auth {
     margin-top: 15px;
@@ -490,4 +490,51 @@ nav ul li:hover {
 .footer-links a:hover {
   color: #6c63ff;
 }
-</style>
+    
+@media (max-width: 768px) {
+  /* Features section (Why NotesNexus) cards stack */
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  /* Testimonials stack */
+  .testimonials .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  /* Already working sections stay responsive */
+  .subjects-grid,
+  .notes-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .subject-card,
+  .note-card {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .view-all-btn-wrapper {
+    justify-content: center;
+  }
+}
+   </style>
