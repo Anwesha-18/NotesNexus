@@ -1,7 +1,4 @@
-<!-- EMBEDDED CSS -->
-  <style>
-    /* Your ENTIRE CSS goes here */
-    /* paste the whole CSS content inside this <style> tag */
+<style>
 {
   margin: 0;
   padding: 0;
@@ -493,5 +490,4 @@ nav ul li:hover {
 .footer-links a:hover {
   color: #6c63ff;
 }
-
- </style>
+</style>
